@@ -93,8 +93,8 @@ gulp.task('style:build', function() {
         })))
         .pipe(prefixer())
         .pipe(cssmin())
-        .pipe(sourcemaps.write())
         .pipe(postcss(processors))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))        
         .pipe(notify('SASS - хорошая работа!'))
         .pipe(reload({ stream: true }));
