@@ -1,0 +1,9 @@
+mkdir build
+mkdir dev
+mkdir build/css
+mkdir build/js
+mkdir build/img
+mkdir dev/style
+mkdir dev/js
+mkdir dev/img
+mkdir dev/template
